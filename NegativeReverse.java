@@ -20,7 +20,7 @@ public class NegativeReverse {
 			return;
 		
 		int rem = num % 10;
-		System.out.print(rem);
+		System.out.print("hi" + rem);
 		
 		getReverse(num / 10);
 		
